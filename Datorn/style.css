@@ -1,0 +1,159 @@
+body {
+height: 100vh;
+width: 100vw;
+margin: 0px;
+background-color: #000000;
+}
+header{
+    grid-area: h;
+    background-color: #660099;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 425%;
+    margin: 5px;
+    padding: 10px;
+}
+#n1{
+    grid-area: n1;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n2{
+    grid-area: n2;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n3{
+    grid-area: n3;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n4{
+    grid-area: n4;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n5{
+    grid-area: n5;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n6{
+    grid-area: n6;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n7{
+    grid-area: n7;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n8{
+    grid-area: n8;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+#n9{
+    grid-area: n9;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 5px;
+    padding: 10px;
+}
+aside{
+    grid-area: m;
+    background-color: #cccccc;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+main{
+    grid-area: a;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 150%;
+    margin: 5px;
+    padding: 10px;
+}
+footer{
+    grid-area: f;
+    background-color: #660099;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 150%;
+    color: #cccccc;
+}
+
+#wrapper{
+height: 100%;
+width: 100%;
+display: grid;
+grid-template-columns:10% 55% 35%;
+grid-template-rows: 10% 6% 6% 6% 6% 6% 6% 6% 6% 32% 10%;
+
+grid-template-areas:
+
+"h h h"
+"n1 a m"
+"n2 a m"
+"n3 a m"
+"n4 a m"
+"n5 a m"
+"n6 a m"
+"n7 a m"
+"n8 a m"
+"n9 a m"
+"f f f";
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; 
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #aaaaaa;
+  color: #000000;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

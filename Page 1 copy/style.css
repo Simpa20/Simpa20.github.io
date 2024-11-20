@@ -1,0 +1,91 @@
+
+div{
+
+height: 500px;
+width: 1885px;
+
+
+
+}
+
+
+#ruta1{
+
+background-color: #ff5f00;
+
+
+
+}
+
+
+
+#ruta2{
+
+height: 400px;
+width: 1200px;
+
+background-color: #0048ff;
+
+}
+
+#ruta3{
+
+height: 400px;
+width: 585px;
+
+background-color: #0f4000;
+
+}
+
+#ruta4{
+
+height: 200px;
+width: 1885px;
+
+background-color: #45005c;
+
+}
+
+#ruta5{
+
+height: 400px;
+width: 100px;
+
+}
+
+
+
+
+
+
+#container{
+
+height: 500px;
+width: 1885px;
+
+display: flex;
+
+background-color: #262626;
+
+}
+
+#ruta6{
+
+height: 100px;
+width: 1885px;
+
+background-color: #262626;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

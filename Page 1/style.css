@@ -1,0 +1,40 @@
+
+div{
+
+height: 800px;
+width: 800px;
+
+}
+
+
+#ruta1{
+
+background-color: #ff5f00;
+
+}
+
+#ruta2{
+
+background-color: #0048ff;
+
+}
+
+#container{
+
+display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
